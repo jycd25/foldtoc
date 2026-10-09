@@ -1,0 +1,33 @@
+{
+  "name": "foldtoc",
+  "version": "0.1.0",
+  "description": "Generate a Markdown table of contents whose sub-sections are collapsed behind <details> toggles. A drop-in replacement for doctoc.",
+  "type": "module",
+  "bin": {
+    "foldtoc": "bin/foldtoc.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "toc",
+    "table of contents",
+    "markdown",
+    "readme",
+    "collapsible",
+    "details",
+    "doctoc"
+  ],
+  "engines": {
+    "node": ">=18.3"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "github-slugger": "^2.0.0",
+    "mdast-util-from-markdown": "^2.0.3"
+  }
+}

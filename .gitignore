@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Credentials and local config (.npmrc can hold an npm auth token)
+.env
+.env.*
+.npmrc
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# npm pack output
+*.tgz
