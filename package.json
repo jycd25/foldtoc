@@ -1,6 +1,6 @@
 {
   "name": "foldtoc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate a Markdown table of contents whose sub-sections are collapsed behind <details> toggles. A drop-in replacement for doctoc.",
   "type": "module",
   "bin": {
